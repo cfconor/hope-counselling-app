@@ -102,6 +102,8 @@ WSGI_APPLICATION = 'hope_counselling.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+ENFORCE_SCHEMA = False
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
